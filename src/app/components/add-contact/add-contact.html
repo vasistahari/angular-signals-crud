@@ -1,0 +1,4 @@
+<app-contact-form title="Add Contact" type="add" (save)="addContact($event)" />
+@if (saving()) {
+<mat-progress-spinner mode="indeterminate" diameter="50"></mat-progress-spinner>
+}

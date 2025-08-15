@@ -1,0 +1,5 @@
+@if (loading()) {
+<mat-progress-spinner mode="indeterminate" diameter="50" />
+} @if (contactResource.value(); as contact) {
+<app-contact-form title="Edit Contact" [type]="'edit'" [contact]="contact" (save)="updateContact($event)" />
+}

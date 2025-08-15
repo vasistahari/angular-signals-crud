@@ -1,59 +1,87 @@
-# AngualrSignalsCrud
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.6.
+# Angular Signals CRUD Sample App
 
-## Development server
+Welcome to the **Angular Signals CRUD** sample application! This project demonstrates how to use Angular's new Signals feature to build a modern, reactive CRUD (Create, Read, Update, Delete) application for managing contacts.
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
+## ✨ Features
+
+- **Modern Angular**: Built with the latest Angular best practices.
+- **Signals**: Uses Angular Signals for state management and reactivity.
+- **CRUD Operations**: Add, edit, delete, and view contacts.
+- **Component-based Architecture**: Clean separation of concerns with reusable components.
+- **Responsive UI**: Styled with SCSS for a clean and responsive design.
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+	app/
+		components/
+			add-contact/
+			contact-form/
+			contact-list/
+			edit-contact/
+			navbar/
+		modals/
+		services/
+		app.config.ts
+		app.html
+		app.routes.ts
+		app.scss
+		app.ts
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🚀 Getting Started
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
+### 1. Clone the repository
 ```bash
-ng generate component component-name
+git clone https://github.com/your-username/angular-signals-crud.git
+cd angular-signals-crud
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
+### 2. Install dependencies
 ```bash
-ng generate --help
+npm install
 ```
 
-## Building
-
-To build the project run:
-
+### 3. Start the development server
 ```bash
-ng build
+npm start
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+The app will be available at [http://localhost:4200](http://localhost:4200).
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 🛠️ Usage
+- **Add Contact**: Use the form to add a new contact.
+- **Edit Contact**: Click the edit button next to a contact to update details.
+- **Delete Contact**: Remove a contact with the delete button.
+- **View Contacts**: All contacts are listed on the main page.
 
-```bash
-ng test
-```
+---
 
-## Running end-to-end tests
+## 🧩 Signals in Action
+This app uses Angular Signals for state management, providing a highly reactive and efficient UI. Check out the services and components for practical usage examples.
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
+## 📚 Learn More
+- [Angular Signals Documentation](https://angular.dev/reference/signals)
+- [Angular Official Docs](https://angular.io/docs)
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+## 📄 License
+This project is licensed under the MIT License.
